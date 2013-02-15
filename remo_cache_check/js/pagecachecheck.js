@@ -1,5 +1,5 @@
 function remoCacheCheckPageChanged(cID, cName) {    
-    var ajaxUrl = CCM_BASE_URL + CCM_REL + CCM_DISPATCHER_FILENAME + "/dashboard/reports/page_cache_check/check_page"
+    var ajaxUrl = CCM_BASE_URL + CCM_DISPATCHER_FILENAME + "/dashboard/reports/page_cache_check/check_page"
     $.post(ajaxUrl, {
         "cID": cID
     }, function(data) {
